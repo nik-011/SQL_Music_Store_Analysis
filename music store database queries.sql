@@ -1,5 +1,5 @@
 
-												/* Question Set 1 - Easy */
+	/* Question Set 1 - Easy */
 
 /* 1. Who is the senior most employee based on job title? */
 
@@ -41,7 +41,7 @@ group by c.customer_id
 order by 3 desc
 limit 1;
 
-												/* Question Set 2 – Moderate */
+	/* Question Set 2 – Moderate */
 							
 /* 1. Write query to return the email, first name, last name, & Genre of all Rock Music listeners. Return your list ordered alphabetically by email starting with A. */
 
@@ -81,7 +81,7 @@ where t.milliseconds>(select avg(milliseconds)
 					 from track)
 order by 2 desc;
 
-												/* Question Set 3 – Advance */
+	/* Question Set 3 – Advance */
 							
 /* 1. Find how much amount spent by each customer on artists? Write a query to return customer name, artist name and total spent. */
 
